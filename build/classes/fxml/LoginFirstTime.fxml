@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="245.0" prefWidth="375.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.111" fx:controller="main.MainController">
+   <children>
+      <PasswordField fx:id="Passwordft" layoutX="113.0" layoutY="98.0" />
+      <Button layoutX="145.0" layoutY="150.0" mnemonicParsing="false" onAction="#loginft" text="Set Password" />
+      <Label layoutX="11.0" layoutY="14.0" text="Welcome to File Manager for the first time">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="38.0" layoutY="73.0" text="Please enter your new password :" />
+      <Label layoutX="113.0" layoutY="123.0" text="Please choose a strong password which you can remember">
+         <font>
+            <Font size="9.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
